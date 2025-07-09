@@ -1,0 +1,59 @@
+body{
+    background-color: #F5F0CD;
+}
+#cart{
+    position: absolute;
+    background-color: #FADA7A;
+    color: #3674B5;
+    top: 55px ;
+    right: 30px;
+    border-radius: 0px 0px 6px 6px;
+    width: 200px;
+    text-align: center;
+    display: none;
+}
+input{
+    outline: none;
+    background: none;
+    border: 2px solid #578FCA;
+    width: 90%;
+    padding: 7px
+}
+#container{
+    margin: auto;
+    width: 80%;
+
+
+}
+.over img{
+    transition: .3s;
+}
+.over:hover img{
+    transform: translateY(-10px);
+}
+#count{
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    bottom:10px ;
+    font-size: 14px;
+    padding: 3px;
+    display: none;
+}
+.cd{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+@media (max-width:750px){
+#cart{
+    position: absolute;
+    background-color: aqua;
+    color: black;
+    top: 85px;
+    right: 0;
+    width: 150px;
+}
+}
